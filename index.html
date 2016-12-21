@@ -36,7 +36,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand mb-0" href="#">ChemSel - <small>All you need in one place</small> </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right" role="form">
@@ -55,15 +55,75 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <h1>Material Search</h1>
+        <p>This is a ChemSel sample site which is for only for dev testing purpose</p>
+          <div class="form-group">
+            <div class="row">
+              <div class="col-md-1 col-lg-1">
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"> MSDS
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li selected="selected" ><a href="#">MSDS</a></li>
+                    <li class='disabled' ><a href="#">Regulatory</a></li>
+                    <li class='disabled' ><a href="#">Supplier Details</a></li>
+                    <li class='disabled' ><a href="#">Reaction</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-11 col-lg-11">            
+                  <input id="prime-search" type="text" placeholder="Search CAS, Chemical Name" class="form-control">
+              </div>              
+            </div>
+          </div>
+        <p><a class="btn btn-primary btn-lg" href="#" id="preselect-materials" role="button">Show All &raquo;</a></p>
       </div>
     </div>
 
-    <div class="container">
-      <!-- Example row of columns -->
+<div  id="prime-container" style="min-height: 300px;">
+    <div id="sub-container" class="container">
+    <h3></h3>
       <div class="row">
+        <div class="col-md-4">
+          <div class="sub-list-group list-group">
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <div id="main-container" class="container">
+      <h3>Material Safety Data Sheets</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="list-group main-list-group">
+            <a target="_blank" href="msds/Antimony_BAsed_200881911138935.pdf" class="list-group-item active">antimony based 1</a>
+            <a target="_blank" href="msds/Antimony_Based_Q0770-00.pdf" class="list-group-item list-group-item-action">antimony based 2</a>
+            <a target="_blank" href="msds/Benzophenone.pdf" class="list-group-item list-group-item-action">benzophenone</a>
+            <a target="_blank" href="msds/Krytox® 240AC lubricant.pdf" class="list-group-item list-group-item-action">krytox® 240AC lubricant</a>
+            <a target="_blank" href="msds/Polyurethane Foam1.pdf" class="list-group-item list-group-item-action">polyurethane foam 1</a>
+            <a target="_blank" href="msds/Polyurethane Foam2.pdf" class="list-group-item list-group-item-action">polyurethane foam 2</a>
+            <a target="_blank" href="msds/Polyurethane Foam3.pdf" class="list-group-item list-group-item-action">polyurethane foam 3</a>
+            <a target="_blank" href="msds/Polyurethane Foam4.pdf" class="list-group-item list-group-item-action">polyurethane foam 4</a>
+            <a target="_blank" href="msds/Polyurethane Foam5.pdf" class="list-group-item list-group-item-action">polyurethane foam 5</a>
+            <a target="_blank" href="msds/Polyurethane Foam6.pdf" class="list-group-item list-group-item-action">polyurethane foam 6</a>
+            <a target="_blank" href="msds/Pthalates!.pdf" class="list-group-item list-group-item-action">pthalates 1</a>
+            <a target="_blank" href="msds/Pthalates2.pdf" class="list-group-item list-group-item-action">pthalates 2</a>
+            <a target="_blank" href="msds/Pthalates3.pdf" class="list-group-item list-group-item-action">pthalates 3</a>
+            <a target="_blank" href="msds/SDS-CPFH09-NA-ENG.pdf" class="list-group-item list-group-item-action">polyurethane 7</a>
+            <a target="_blank" href="msds/Synthetic Latex1.pdf" class="list-group-item list-group-item-action">synthetic latex 1</a>
+            <a target="_blank" href="msds/Synthetic Latex2.pdf" class="list-group-item list-group-item-action">synthetic latex 2</a>
+            <a target="_blank" href="msds/Synthetic Latex3.pdf" class="list-group-item list-group-item-action">synthetic latex 3</a>
+            <a target="_blank" href="msds/Synthetic Latex4.pdf" class="list-group-item list-group-item-action">synthetic latex 4</a>
+            <a target="_blank" href="msds/Synthetic Latex5.pdf" class="list-group-item list-group-item-action">synthetic latex 5</a>
+            <a target="_blank" href="msds/Synthetic Latex6.pdf" class="list-group-item list-group-item-action">synthetic latex 6</a>
+            <a target="_blank" href="msds/Trade Name.pdf" class="list-group-item list-group-item-action">trade name</a>
+            <a target="_blank" href="msds/Trade Secret_Ingredient.pdf" class="list-group-item list-group-item-action">trade secret ingredient</a>
+            <a target="_blank" href="msds/TradeSecret.pdf" class="list-group-item list-group-item-action">trade secret</a>
+          </div>
+        </div>
+      </div>
+
+<!--      <div class="row">
         <div class="col-md-4">
           <h2>Heading</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
@@ -79,14 +139,16 @@
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
+
+        -->
       </div>
-
+  </div>
       <hr>
-
       <footer>
-        <p>&copy; Company 2015</p>
+        <p style="margin-left: 6%">&copy; 2016 Knovel Corporation</p>
       </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    </div>
+            <script src="js/1.11.2.jquery.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>

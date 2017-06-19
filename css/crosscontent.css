@@ -1,0 +1,36 @@
+.overall-statistics-dropdown-label {
+	float: left;
+    width: 31.3%;
+    margin-top: 7px;
+    font-weight: normal;
+    margin-left: 32.5%;
+	color: #333333;
+    font-size: 18px;    
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;    
+}
+
+#overall-statistics-container .dropdown {
+    float: left;
+    width: 32%;	
+}
+
+#main-container {
+    margin-bottom: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

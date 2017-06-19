@@ -1,0 +1,144 @@
+{
+	"content": {
+		"chemadvisor": {
+			"volume": 473626,
+			"identifiers": {
+				"CAS": {
+					"total": 473626,
+					"valid": 329463,
+					"fake": 124739,
+					"others": 19428
+				},
+				"INCHI": {
+					"total": 113874
+				},
+				"SMILES": {
+					"total": 114525
+				},
+				"FORMULA": {
+					"total": 227197
+				},
+				"MOL_WEIGHT": {
+					"total": 73204
+				},
+				"CHEMICAL_NAME": {
+					"total": 473626
+				},
+				"SYNONYMS": {
+					"total": 188918
+				}
+			},
+			"primaryIdentifier": "CAS",
+			"properties": ["Water Solubilities (Quantitative)", "Vapor Pressures", "Vapor Densities", "pH Values", "Autoignition Temperatures", "Evaporation Rates", "Coefficient of Octanol/Water Distribution (log Kow)", "Appearances", "Boiling Points", "Densities", "Extinguishing Media for Fires (Suitable)", "Melting Points", "Flash Points", "Henry's Law Constant", "Specific Gravity", "Water Solubilities (Qualitative)", "Water Miscibilities", "Odors", "Extinguishing Media for Fires (Unsuitable)", "Bulk Densities", "Odor Threshold Values (Recognition)", "Odor Threshold Values (Detection)", "Heats of Combustion", "Heats of Formation", "State of Matter", "Colors", "Bioconcentration Factors (BCFs)", "Acid Dissociation Constant (pKa)"],
+			"regulation":{
+              "total": 5808
+            },
+			"name": "ChemAdvisor LOLI"
+		},
+		"synapse": {
+			"volume": 114000,
+			"identifiers": {
+				"CAS": {
+					"total": 0,
+					"valid": 0,
+					"fake": 0,
+					"others": 0
+				},
+				"INCHI": {
+					"total": 0
+				},
+				"SMILES": {
+					"total": 0
+				},
+				"FORMULA": {
+					"total": 0
+				},
+				"MOL_WEIGHT": {
+					"total": 0
+				},
+				"CHEMICAL_NAME": {
+					"total": 0
+				},
+				"SYNONYMS": {
+					"total": 0
+				}
+			},
+			"primaryIdentifier": "CAS",
+			"properties": [],
+			"tradeName":{
+              "total": 5808
+            },
+			"name": "Synapse Information Resource"
+		},
+		"actio": {
+			"volume": 400000,
+			"identifiers": {
+				"CAS": {
+					"total": 0,
+					"valid": 0,
+					"fake": 0,
+					"others": 0
+				},
+				"INCHI": {
+					"total": 0
+				},
+				"SMILES": {
+					"total": 0
+				},
+				"FORMULA": {
+					"total": 0
+				},
+				"MOL_WEIGHT": {
+					"total": 0
+				},
+				"CHEMICAL_NAME": {
+					"total": 0
+				},
+				"SYNONYMS": {
+					"total": 0
+				}
+			},
+			"primaryIdentifier": "CAS",
+			"properties": [],
+			"msds":{
+              "total": 0
+            },
+			"name": "Enviance Actio"
+		},
+		"reaxys": {
+			"volume": 3000000,
+			"identifiers": {
+				"CAS": {
+					"total": 0,
+					"valid": 0,
+					"fake": 0,
+					"others": 0
+				},
+				"INCHI": {
+					"total": 0
+				},
+				"SMILES": {
+					"total": 0
+				},
+				"FORMULA": {
+					"total": 0
+				},
+				"MOL_WEIGHT": {
+					"total": 0
+				},
+				"CHEMICAL_NAME": {
+					"total": 0
+				},
+				"SYNONYMS": {
+					"total": 0
+				}
+			},
+			"primaryIdentifier": "CAS",
+			"properties": [],
+			"reactions":{
+              "total": 0
+            },
+			"name": "Reaxys"
+		}              
+	}
+}
